@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult</title>
+    <link rel="stylesheet" href="assets/css/problem.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <div class="whole">
+        <div class="big-text">
+            <span>What's your challenge?</span>
+        </div>
+        <div class="names">
+            <div class="firstname">
+                <input type="text" id="firstname" placeholder="First Name">
+            </div>
+            <div class="lastname">
+                <input type="text" id="lastname" placeholder="Last Name">
+            </div>
+        </div>
+        <input type="text" id="email" placeholder="Email">
+        <textarea name="problem" id="problem" cols="30" rows="10" placeholder="Enter your problem here"></textarea>
+        <input type="submit" class="send" value="Send" onclick="send_mail()">
+    </div>
+</body>
+</html>
